@@ -1,0 +1,9 @@
+.example2 > div {
+    background-color: deeppink;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.example2 > div:nth-last-of-type(odd) {
+    background-color: black;
+}
